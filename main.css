@@ -1,0 +1,38 @@
+.caption {
+	font-family: "";
+	font-size: 15px;
+	margin-top: 0px;
+	color: gray;
+
+}
+
+.photo_credit {
+	font-size: 13px;
+	margin-top: 0px;
+	color:darkgray;
+	font-style: italic;
+}
+
+.photo {
+	max-width: 90%;
+
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	gap: 10px;
+	align-items: center;
+}
+
+@media (max-width:700px) {
+	.wrapper {
+		grid-template-columns: 1fr;
+	}
+}
+
+iframe {
+	display:block;
+	width:100%;
+	border: none;
+}
